@@ -12,6 +12,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import com.example.sbtpostgres.service.AuthorService;
 import com.example.sbtpostgres.service.BookService;
 
+/**
+ * 
+ * @author quymv
+ *
+ */
 @SpringBootApplication
 public class StartApplication implements CommandLineRunner {
 
