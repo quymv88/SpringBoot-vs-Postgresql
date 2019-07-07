@@ -14,8 +14,8 @@ public class AuthorService {
     private AuthorRepository repository;
 
     public void initAuthors() {
-        repository.save(new Author("Mai Van Quy"));
-        repository.save(new Author("Tung Dao"));
+        repository.save(new Author("QuyMV"));
+        repository.save(new Author("John"));
     }
 
     public Author getById(Long id) {
